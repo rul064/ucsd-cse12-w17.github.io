@@ -1,0 +1,9 @@
+1.The first example is I filter out all the n-grams words that with a punctuation with it because an n-gram span across sentences or across comma boundaries does not generate a useful sequences, and we needn't to analyze and consider it. All of the circumstances can be filtered out by this filtering rule.
+The second example is to convert all the words to lower case to make case insensitive. 
+2.The run time should be O(nlog(n)). It takes 10806ms to load all the sample data.  
+The outter loop runtime is O(n). The inner loop is O(log(n)).
+
+
+3.
+The runtime of querying the dataset is nlog(n).
+ it takes 825ms for sample series "is a".
